@@ -472,8 +472,8 @@ export default function Dashboard() {
                         <BarChart graphData={data?.bargraph ? data.bargraph : { labels: [], data: [[]] }} />
                     </div>
 
-                    <div className="grid lg:grid-cols-2 sm:grid-cols-1 gap-4 mb-4">
-                        <div className="border-2 rounded-xl shadow-inner h-fit p-3 flex flex-col md:px-10 md:flex-row md:h-72 justify-between items-start">
+                    <div className="grid grid-cols-1 gap-4 mb-4 md:grid-cols-2">
+                        <div className="border-2 rounded-xl shadow-inner h-74 p-3 flex flex-col md:px-10 md:flex-row md:h-72 justify-between items-start">
                             <div className="py-1 md:py-6 ">
                                 <text className="text-xl font-bold">Top Breeds</text><br />
                                 <text className="text-xs">Sub-Breeds</text>
