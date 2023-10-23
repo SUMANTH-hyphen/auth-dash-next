@@ -19,7 +19,7 @@ console.log(credentials)
         <div className="container mx-auto w-full place-content-center relative">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="w-full lg:h-screen h-fill"
+            className="w-full h-fill md:h-screen "
             fill="none"
           >
             <path
@@ -46,7 +46,7 @@ console.log(credentials)
           <div className="absolute top-0 left-0 ml-4 mt-4">
             <text className="text-xl font-bold text-white">LOGO</text>
           </div>
-          <text className="absolute top-1/2 left-[33%] text-4xl text-white font-bold md:top-[45%] md:left-[30%] md:text-6xl">
+          <text className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-4xl text-white font-bold md:text-6xl">
               Board
           </text>
           {/* <div className="absolute top-24 mt-5 left-[30%] ">
